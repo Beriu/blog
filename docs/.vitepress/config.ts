@@ -1,11 +1,7 @@
-import { defineConfigWithTheme } from 'vitepress';
-import Theme from "./theme/index";
+import { defineConfig } from 'vitepress';
 
-export default defineConfigWithTheme<typeof Theme>({
-
+export default defineConfig({
     lang: 'en-US',
-    title: 'VitePress',
-    description: 'Vite & Vue powered static site generator.',
-
-    themeConfig: Theme
+    title: 'Blog',
+    description: 'A place for my webish endeavors',
 });

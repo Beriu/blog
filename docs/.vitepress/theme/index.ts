@@ -1,4 +1,5 @@
-import Layout from "./Layout.vue";
+import Layout from "./src/Layout.vue";
+import "./index.scss";
 
 export default {
   // root component to wrap each page
